@@ -1,0 +1,39 @@
+*{
+    /*border: red 5px solid;*/
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left; 16px;
+  }
+  
+  .blue{
+    background-color: #1F2937;
+    color: #F9faf8;
+    padding: 5px 128px;
+  }
+  
+  ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+  }
+  
+  h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+  }
+  
+  .logo{
+    font-size: 24px;
+    font-weight: bold;
+  }
