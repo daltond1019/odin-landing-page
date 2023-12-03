@@ -79,3 +79,39 @@
     width: 100%;
     object-fit: cover;
   }
+
+  .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .information-images{
+    display:flex;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 32px;
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box{
+    border: red 5px solid;
+    border-radius: 25px;
+    aspect-ratio : 1 / 1;
+    max-width: 30vh;
+    width: 100%;
+  }
+  
+  h2{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+  }
