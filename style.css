@@ -135,7 +135,29 @@ h2 {
     align-self: flex-end;
 }
 
-.footer{
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    margin: 128px;
+    padding: 45px 80px 45px 32px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-up {
+    height: 50px;
+    border: 3px white solid;
+    width: 128px;
+}
+
+.footer {
     display: flex;
     background-color: #1F2937;
     color: #F9faf8;
